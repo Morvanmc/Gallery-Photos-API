@@ -1,0 +1,28 @@
+$background-color-dark: #363636;
+$background-color-light: #fbfaf8;
+$complimentary-color-dark: #1e1d1d;
+$complimentary-color-light: #feffff;
+
+body {
+  background-color: $background-color-light;
+  color: $background-color-dark;
+  transition: background-color 0.3s linear;
+
+  header {
+    background-color: $background-color-light;
+    color: $background-color-dark;
+    transition: background-color 0.3s linear;
+  }
+}
+
+body.dark-mode {
+  background-color: $background-color-dark;
+  color: $background-color-light;
+  transition: background-color 0.3s linear;
+
+  header {
+    background-color: $background-color-dark;
+    color: $background-color-light;
+    transition: background-color 0.3s linear;
+  }
+}
