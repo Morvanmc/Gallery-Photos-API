@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Iniciando
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone o repositório: **git clone**
 
-## Available Scripts
+Dentro do repo: **npm install**
 
-In the project directory, you can run:
+Para iniciar: **yarn start**
 
-### `yarn start`
+O link padrão é: http://localhost:3000
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Gallery-Photos
+A aplicação foi desenvolvida para a Atividade Front end da Leadster. Teve como objetivo principal criar um album de fotos consumindo a API da [Pexels](https://www.pexels.com/api/documentation/?language=javascript#photos-show).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Os pontos principais exigidos do desafio foram:
+- Criar um site utilizando um framework
+- Consumir a API
+- Algum tipo de paginação
+- Responsividade
+- Utilização de pré-processador CSS
+- Cabeçalho e rodapé
 
-### `yarn test`
+Além dos pontos principais, algumas funcionalidades extras foram adicionandas a termo de estudos. São elas:
+- Dark Mode
+- Pesquisa
+- Lazy load das imagens
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Protótipo Figma
+[Gallery-Photos](https://www.figma.com/file/MEOn94PgYDSUz3UEzZDkJA/Leadster?node-id=0%3A1)
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Techs Utilizadas
+- ReactJS
+- SASS
+- Figma
