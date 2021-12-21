@@ -6,7 +6,7 @@ export const useFetch = (data, dispatch, query) => {
       dispatch({ type: 'FETCHING_IMAGES', fetching: true })
       fetch(`https://api.pexels.com/v1/curated?page=${data.page}&per_page=15`, {
         headers: {
-          Authorization: '563492ad6f9170000100000180b20cfc905943b88466006888bb88f8'
+          Authorization: 'YOUR_PEXEL_API_KEY'
         }
       })
         .then(response => response.json())
@@ -23,7 +23,7 @@ export const useFetch = (data, dispatch, query) => {
       dispatch({ type: 'FETCHING_IMAGES', fetching: true })
       fetch(`https://api.pexels.com/v1/search?query=${query}&per_page=80`, {
         headers: {
-          Authorization: '563492ad6f9170000100000180b20cfc905943b88466006888bb88f8'
+          Authorization: 'YOUR_PEXEL_API_KEY'
         }
       })
         .then(response => response.json())
